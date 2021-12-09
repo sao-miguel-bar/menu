@@ -1,0 +1,218 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+  background-color: ivory;
+  font-family: "nunito", cursive;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.bar-title {
+  font-family: "monoton", cursive;
+  font-size: 52px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.bar-name {
+  font-family: "sacramento", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cocktails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price {
+  margin-left: 20px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+footer {
+  /* background-color: rgb(84, 122, 119); */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* margin-top: 20px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.map {
+  display: block;
+  color: black;
+  font-size: 12px;
+  line-height: 1.4;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  display: block;
+  block-size: 40px;
+  margin: 5px;
+  margin-top: 0;
+}
+
+.sm-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.bar-title-footer {
+  font-family: "monoton", cursive;
+  font-size: 36px;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+}
+
+/* .box {
+  width: auto;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+} */
+
+.button {
+  /* background-image: url("images/info.png"); */
+  /* padding: 2px; */
+  background-color: rgb(25, 126, 41);
+  border: 1px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: quicksand;
+}
+
+.popup h1 {
+  font-family: quicksand;
+  font-weight: 600;
+}
+
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  transition: all 100ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
+}
