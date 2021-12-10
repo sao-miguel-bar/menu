@@ -148,6 +148,7 @@ footer {
   /* background-image: url("images/info.png"); */
   /* padding: 2px; */
   background-color: rgb(25, 126, 41);
+  color: #fff;
   border: 1px solid black;
   border-radius: 50%;
   text-decoration: none;
