@@ -228,3 +228,9 @@ footer {
     width: 70%;
   }
 }
+
+.description {
+  font-size: 10px;
+  line-height: 0.5;
+  margin-left: 30px;
+}
