@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+.lang-icon {
+  font-size: large;
+}
+
 ul {
   margin: 0;
   padding: 0;
