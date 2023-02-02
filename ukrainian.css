@@ -231,5 +231,6 @@ footer {
 
 .inside {
   font-size: 12px;
-  margin-bottom: 30px;
+  display: block;
+  margin-bottom: 10px;
 }
