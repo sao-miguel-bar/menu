@@ -228,3 +228,7 @@ footer {
   line-height: 0.5;
   margin-left: 30px;
 }
+
+.inside {
+  font-size: 12px;
+}
