@@ -77,6 +77,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.product-shot {
+  display: flex;
+}
 
 .cocktails {
   display: flex;
