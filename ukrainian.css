@@ -26,7 +26,9 @@ a {
 body {
   color: black;
   background-color: ivory;
-  font-family: "nunito", cursive;
+  font-family: "quicksand", "Montserrat+alternates";
+  font-weight: 500;
+  font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
@@ -72,6 +74,9 @@ body {
   justify-content: space-between;
 }
 
+.product-shot {
+  display: flex;
+}
 .cocktails {
   display: flex;
   flex-direction: row;
